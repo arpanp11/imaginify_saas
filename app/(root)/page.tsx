@@ -33,6 +33,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
         </ul>
       </section>
 
+      {/* all images collection */}
       <section className='sm:mt-12'>
         <Collection
           hasSearch={true}
